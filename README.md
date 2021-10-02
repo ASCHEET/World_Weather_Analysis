@@ -12,11 +12,11 @@
 
 ## Deliverable Two: Create a Customer Travel Destinations Map
 ### Using the WeatherPy_Database.csv file from Deliverable One; the user is asked a range of temperatures preferred for the planned vacation setting and filtering a high and low.  Cities with temperatures outside of the requested range are not included in continued analysis for vacation planning.  The temperature criteria used for the beta test was between 50 and 75 degF.  This returned 291 data complete destinations.  Next, of the 291 cities, a Google API request script was developed and used to locate hotels within 5 km of the lat/long coordinates.
-### ![Fig 2 - Hotel DataFrame]()
+### ![Fig 2 - Hotel DataFrame](https://github.com/ASCHEET/World_Weather_Analysis/blob/main/Weather_Database/Vacation_Search/hotel_df.png?raw=true)
 ### ![Fig 3 - WeatherPy_vacation_map.png](https://github.com/ASCHEET/World_Weather_Analysis/blob/main/Weather_Database/Vacation_Search/WeatherPy_vacation_map.png?raw=true)
 
 ## Deliverable Three: Create a Travel Itinerary Map
-### Utilizing Google Maps and Directions a travel itinerary was created from a selected four (4) cities that are within driving distance.  This beta test chose: Port Hardy, BC, Canada / Stettler, AB, Canada / Polson, MT, US / Hoquiam, WT, US
+### Utilizing Google Maps and Directions a travel itinerary was created from a selected four (4) cities that are within driving distance.  This beta test chose: 1) Port Hardy, BC, Canada 2) Stettler, AB, Canada 3) Polson, MT, US 4) Hoquiam, WT, US with a return back to 5) Port Hardy, BC, Canada
 ### ![Fig 4 - City_df](https://github.com/ASCHEET/World_Weather_Analysis/blob/main/Weather_Database/Vacation_Itinerary/City_df.png?raw=true)
 ### ![Fig 5 - WeatherPy_travel_map.png](https://github.com/ASCHEET/World_Weather_Analysis/blob/main/Weather_Database/Vacation_Itinerary/WeatherPy_travel_map.png?raw=true)
 ### A heatmap was generated using the locations chosen for the road trip to the four cities with a hotel option in each city.  The hotel returned does not check for hotel availability.
